@@ -51,4 +51,5 @@ Contributions are welcomed to enhance the Weather App further. If you have any s
 This Weather App draws inspiration from various online tutorials and resources on React development.
 
 ---
-
+[webimages/webvisual1.PNG]
+[webimages/webvisual2.PNG]
