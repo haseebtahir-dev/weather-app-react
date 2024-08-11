@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+.App {
+    text-align: justify;
+}
+
+.weather-app {
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(#031027 0%, #02101D 100%);
+}
+.container{
+    max-width: 960px;
+     width: 100%; 
+    margin: auto 0px;
+    padding: 0px 16px;
+}
+.heading h1 {
+    color: rgb(47, 93, 138);
+    font-size: 35px;
+}
+.heading {
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+#input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background-color: rgb(5, 26, 51);
+    color: rgb(95, 139, 191);
+    font-size: 	18px;
+}
+::placeholder{
+    color: rgb(47, 93, 138);
+    font-size: 	18px;
+}
+.search-icon svg {
+    fill: rgb(74, 111, 161);
+   margin-left: -60px;
+   margin-top: 6px;
+   cursor: pointer;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.current-weather{
+    background-color: rgb(5, 26, 51);
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 3px;
+    border-radius: 15px;
+    padding: 24px 32px;
+}
+.current-heading h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(47, 93, 138);
+}
+.upadte-heading h4{
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(57, 107, 174);
+}
+.current-weather-upadte {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 16px;
+    width: 400px;
+}
+.current-weather-wrapper{
+    display: flex;
+}
+.icon-temp {
+    display: flex;
+    gap: 20px;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+}
+.icon img {
+    width: 100%;
+}
+.temperature p {
+    font-weight: 200;
+    font-size: 7rem;
+    color: rgb(74, 111, 161);
+    line-height: 1;
+}
+.sky-update h6{
+    font-size: 25px;
+    color: rgb(74, 111, 161);
+    font-weight: 600;
+}
+.weather-atmos{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem 2rem 2rem;
+}
+.feel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.feels p {
+    font-size: 20px;
+    color: rgb(74, 111, 161);
+}
+.feel svg {
+    fill: rgb(21, 60, 94);
+}
+.feel-tem{
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: rgb(58, 134, 202);
+}
+.feel-temp {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 32px;
+}
+.atmos {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 13px;
+}
+.atmos p {
+    color: rgb(57, 117, 171);;
+    font-size: 16px;
+}
+.atmos svg{
+    fill: rgb(21, 60, 94);
+}
+
+.m-w {
+    margin-left: 26px;
+    color: rgb(48, 128, 200)!important;
+    font-weight: 500;
+}
+.feels {
+    margin-bottom: 20px;
+}
+.c-w{
+    color: rgb(48, 128, 200)!important;
+    font-weight: 500;
+}
+
+#search-button{
+    background-color: transparent;
+    border: none;
+}
+
+
